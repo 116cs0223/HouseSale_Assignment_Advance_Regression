@@ -22,19 +22,18 @@ The company wants to know:
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Here we have to create a linear regression model for the probelem statement.
-- Boombikes , a US based bike-sharing company has suffered considerable loss in revenues due to Corona pandemic. To understand what data is affecting the demand for bike in the locality/country. The company wants to know:
-1. Which variables are mostly affecting the demand for the shared bike.
-2. How good are those variables in predicting the demand
-The objective of this project is to analyse the dataset and come up with a linear regreassion model to predict demand on basis of some independent variables.
+- Here we have to create a linear regression model, Ridge Regression model and Lasso Regression model for the probelem statement.
+- I am required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
-- The privide dataset has diofferent fields like season, year,month, day of week,weather condition(temperrature,humidity,windspeed), type of day(weekday or weekend) and  target variable i.e. count of bike sales on a particular day.
+The objective of this project is to analyse the dataset and come up with a advance regreassion model to predict house sale on australian market on basis of learning on US data.
+
+- The proivided dataset has different fields like MSSubClass, MSZoning,LotArea, LandContour,Neighborhood, YearBuilt,MasVnrArea,Foundation.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 
-- year, weathersit, season and humudity  are the imporatnt features that significantly impact the demand of shared bikes.
+- Both Ridge and Lasso model perform slightly better than linear regression model and give higher test score. Lasso model outperforms Ridge if compared. Hence the best model choosed is Lasso. The alpha value at which Lasso performs best is 0.0001.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -42,16 +41,14 @@ The objective of this project is to analyse the dataset and come up with a linea
 ## Technologies Used
 
 - seaborn 0.11.2
-- statsmodels 0.12.2
-- scipy 1.7.1
-- pandas 1.3.4
-- numpy 1.20.3
-- matplotlib 3.4.3
+- pandas 1.0.3
+- numpy 1.15.4
+- scikit-learn 0.20.1
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-- This project was inspired by the Linear Regression Course conducted by IIITB and UpGrad.  
+- This project was inspired by the Advance Regression Course conducted by IIITB and UpGrad.  
 
 
 
