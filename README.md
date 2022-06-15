@@ -1,8 +1,16 @@
 #  Name
-> Boombikes , a US based bike-sharing company has suffered considerable loss in revenues due to Corona pandemic. To understand what data is affecting the demand for bike in the locality/country. The company wants to know:
-1. Which variables are mostly affecting the demand for the shared bike.
-2. How good are those variables in predicting the demand
-The objective of this project is to analyse the dataset and come up with a linear regreassion model to predict demand on basis of some independent variables.
+>A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
+
+ 
+
+The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+
+ 
+
+The company wants to know:
+1. Which variables are significant in predicting the price of a house, and
+2. How well those variables describe the price of a house.
+3. Determine the optimal value of lambda for ridge and lasso regression.
 
 
 ## Table of Contents
